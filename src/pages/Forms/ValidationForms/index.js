@@ -58,7 +58,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="number1"
                     component={renderField} />
                 </div>
               </div>
@@ -68,7 +68,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="number2"
                     component={renderField} />
                 </div>
               </div>
@@ -78,7 +78,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="date"
                     component={renderField} />
                 </div>
               </div>
@@ -88,7 +88,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="number3"
                     component={renderField} />
                 </div>
               </div>
@@ -98,7 +98,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="number4"
                     component={renderField} />
                 </div>
               </div>
@@ -108,7 +108,7 @@ const ValidationForm = ({
                 <div className="col-sm-9">
                   <Field
                     type="text"
-                    name="number"
+                    name="required2"
                     component={renderField} />
                 </div>
               </div>
