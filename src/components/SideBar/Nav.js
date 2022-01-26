@@ -60,7 +60,7 @@ class Nav extends Component {
                   <Link to="/tables/regular-tables">Regular Table</Link>
                 </li> */}
                 <li className={this.isPathActive('/forms/tambah-penjualan') ? 'active' : null}>
-                  <Link to="/forms/validation-forms">Tambah Penjualan</Link>
+                  <Link to="/forms/tambah-penjualan">Tambah Penjualan</Link>
                 </li>
                 <li className={this.isPathActive('/tables/lihat-penjualan') ? 'active' : null}>
                   <Link to="/tables/extended-tables">Lihat Penjualan</Link>

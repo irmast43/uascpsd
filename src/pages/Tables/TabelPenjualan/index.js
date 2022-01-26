@@ -23,7 +23,7 @@ const validate = values => {
   return errors;
 }
 
-const ValidationForm = ({
+const TabelPenjualan = ({
   handleSubmit,
   onSubmit
 }) => (
@@ -149,6 +149,6 @@ const ValidationForm = ({
   );
 
 export default reduxForm({
-  form: 'validationForm',
+  form: 'TabelPenjualan',
   validate
-})(ValidationForm);
+})(TabelPenjualan);
